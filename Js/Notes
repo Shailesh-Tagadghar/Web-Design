@@ -1,3 +1,12 @@
-What is Javascript ?
+1. What is Javascript ?
 
-JS is a cross-platform, object oriented programming language and use by developer to make web pages interactive.
+==> JS is a cross-platform, object oriented programming language and use by developer to make web pages interactive.
+
+
+2. What is the Diff. between let, var and const ?
+
+==> Var variable can be updated and re-declare within its scope
+
+==> Let variable can be updated but not re-declare
+
+==> Const variable can't be updated and re-declare

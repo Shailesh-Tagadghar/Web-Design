@@ -10,3 +10,16 @@
 ==> Let variable can be updated but not re-declare
 
 ==> Const variable can't be updated and re-declare
+
+
+3. Conditional Statement ?
+
+==> 1. It is a dicision making statement
+    2. Conditional statement are used to perfrom different action based on different condition.
+    3. Types of CS : 
+       I. If
+       II. If Else
+       III. Switch
+
+-- If block will be excuted only when condition of If block will be true.
+-- Otherwise Else part will be executed.

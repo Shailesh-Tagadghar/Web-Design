@@ -27,11 +27,23 @@ document.getElementById('name_change').innerHTML="Shailesh T";
 
 //////////////////// CONST //////////////////////////////////////////////////
 
-const a = 10;
-const b = 20;
+// const a = 10;
+// const b = 20;
 
 // document.write(a+b);
 
-a = a + 20;
+// a = a + 20;
 
-document.write(a+b); // this will not print anyting because we are using Const Variable so we can't update and re-declare
+// document.write(a+b); // this will not print anyting because we are using Const Variable so we can't update and re-declare
+
+
+///////////////////// Conditional Statement //////////////////
+
+a = 10;
+
+if(a == 10){
+    document.write('This is true')
+}
+else{
+    document.write('This is false')
+}

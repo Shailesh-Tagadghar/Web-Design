@@ -38,3 +38,20 @@ else if(age >= 18 && (hasVoterId != 'yes' || hasVoterId != 'YES' || hasVoterId !
 else{
     console.log('not Eligible to vote');
 }
+
+// Nested if-else
+let age = parseInt(prompt("Please enter your age"));
+hasVoterId = prompt("Do you have voterId");
+if (age >= 18) {
+    if (hasVoterId == 'yes' || hasVoterId == 'YES' || hasVoterId == 'Yes') {
+        console.log('Eligible to vote');
+    }
+    else {
+        console.log('Apply for voterId');
+    }
+}else {
+    console.log('not Eligible to vote');
+}
+
+//
+

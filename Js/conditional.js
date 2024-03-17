@@ -82,3 +82,13 @@ else if(cost_price <= 50000){
 else{
     console.log('Check the input');
 }
+
+
+//Leap Year
+let year = parseInt(prompt('Please enter year'));
+if ((year % 400 == 0) || (year % 100 != 0) && (year % 4 == 0)) {
+    console.log('Leap Year');
+}
+else {
+    console.log('Not Leap Year');
+}

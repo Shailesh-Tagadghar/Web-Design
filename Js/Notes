@@ -16,9 +16,10 @@
 
 ==> 1. It is a dicision making statement
     2. Conditional statement are used to perfrom different action based on different condition.
+    3. Which is used for control the structure of program
     3. Types of CS : 
-       I. If
-       II. If Else
+       I. If -> (Controller of the  program) -> It will execute the code when the condition is true 
+       II. If Else -> (Else) -> if the condition is false then else part will be executed.
        III. Switch
 
 -- If block will be excuted only when condition of If block will be true.

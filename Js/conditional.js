@@ -127,4 +127,47 @@ else{
     console.log('Check input');
 }
 
-//
+// month and days
+let num = parseInt(prompt('Please enter num'));
+
+if(num > 0 && num <= 12){
+    if(num == 1){
+        console.log('Jan and Num of days is 31');
+    }
+    else if(num == 2){
+        console.log('Feb and Num of days is 28');
+    }
+    else if(num == 3){
+        console.log('Mar and Num of days is 31');
+    }
+    else if(num == 4){
+        console.log('Apr and Num of days is 30');
+    }
+    else if(num == 5){
+        console.log('May and Num of days is 31');
+    }
+    else if(num == 6){
+        console.log('Jun and Num of days is 30');
+    }
+    else if(num == 7){
+        console.log('Jul and Num of days is 31');
+    }
+    else if(num == 8){
+        console.log('Aug and Num of days is 31');
+    }
+    else if(num == 9){
+        console.log('Sep and Num of days is 30');
+    }
+    else if(num == 10){
+        console.log('Oct and Num of days is 31');
+    }
+    else if(num == 11){
+        console.log('Nov and Num of days is 30');
+    }
+    else{
+        console.log('Dec and Num of days is 31');
+    }
+}
+else{
+    console.log('Check input');
+}

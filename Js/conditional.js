@@ -67,3 +67,18 @@ if (age >= 18) {
     console.log('not Eligible to vote');
 }
 
+// Bike and Tax Program
+let cost_price = parseInt(prompt('Please enter cost of bike'));
+
+if(cost_price > 100000){
+    console.log('You have to pay tax aroungd 15%');
+}
+else if(cost_price > 50000 && cost_price <= 100000){
+    console.log('You have to pay tax aroungd 10%');
+}
+else if(cost_price <= 50000){
+    console.log('You have to pay tax aroungd 5%');
+}
+else{
+    console.log('Check the input');
+}

@@ -171,3 +171,55 @@ if(num > 0 && num <= 12){
 else{
     console.log('Check input');
 }
+
+
+example:
+fisrt : 
+a = 5;
+if(a>=10){
+    if('hie'){
+        if(10){
+            document.write('Hii');
+        }
+        else{
+            document.write('Rajesh');
+        }
+    }
+}
+else{
+    if(10){
+        if(a==5){
+            if('priya'){
+                document.write('priya');
+            }
+            else{
+                document.write('Rajesh');
+            }
+    }
+}
+}
+
+
+second : 
+
+a=5;
+a=11;
+b=12;
+a=3;
+
+if(a==5){
+    if('====='){
+        if(a==3){
+            console.log('kuch bhi');
+        }
+    }
+}
+else{
+    console.log('name is shailesh');
+    if(3){
+        console.log('rajesh');
+    }
+    else{
+        console.log('done');
+    }
+}

@@ -16,12 +16,20 @@ let ==> block -- scope -- local
 const ==> block -- scope -- local
 
 examples of for loop :
-
+=============================
 for(i=1; i<=10; i++){
     console.log('shailesh',i);
 }
-
+=============================
 for(i=1; i<11; i++){
 
 }
 console.log(i);
+=============================
+printing 2 * 2 table
+n=2
+for(i=1; i<=10; ++i){
+    console.log(n + ' * ' + i + ' =', n * i);
+}
+=============================
+

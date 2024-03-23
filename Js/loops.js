@@ -15,7 +15,7 @@ var ==> block and in-block -- scope -- local and global
 let ==> block -- scope -- local
 const ==> block -- scope -- local
 
-examples of for loop :
+for loop examples :
 =============================
 for(i=1; i<=10; i++){
     console.log('shailesh',i);
@@ -31,5 +31,15 @@ n=2
 for(i=1; i<=10; ++i){
     console.log(n + ' * ' + i + ' =', n * i);
 }
+=============================
+   
+while loop examples :
+
+i=1
+while(i<=10){
+    console.log('shailesh',i);
+    i=i+1
+}
+console.log(i);
 =============================
 

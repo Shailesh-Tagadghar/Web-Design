@@ -10,6 +10,11 @@ for loop : for loop which is use when we know the number of iteration
 while loop : while loop which is used when we dont know the number of iteration
 ----------while loop block will be execute infinite number of time until condition is met
 
+
+var ==> block and in-block -- scope -- local and global
+let ==> block -- scope -- local
+const ==> block -- scope -- local
+
 examples of for loop :
 
 for(i=1; i<=10; i++){

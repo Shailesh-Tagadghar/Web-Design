@@ -78,3 +78,13 @@ while(x<11){
     }
 }
 console.log(x); // it is same as continue
+=============================
+   
+x=1;
+while(x<11){
+    if(x==5){
+        continue
+    }
+    console.log(x)
+    x=x+1
+}

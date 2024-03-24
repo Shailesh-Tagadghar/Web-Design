@@ -52,3 +52,21 @@ for(i=1;i<=3;i++){
 }
 =============================
 
+nested while loop examples :
+   
+x = 1;
+while(x<11){
+    x=x+1
+    break //it will break the loop 
+}
+console.log(x);
+=============================
+
+x = 1;
+while(x<11){
+    x=x+1
+    continue // it will continue the loop - it will check condition again and again till condition is false.
+}
+console.log(x);
+=============================
+

@@ -70,3 +70,11 @@ while(x<11){
 console.log(x);
 =============================
 
+x = 1;
+while(x<11){
+    x=x+1
+    {
+        
+    }
+}
+console.log(x); // it is same as continue

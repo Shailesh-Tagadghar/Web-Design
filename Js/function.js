@@ -53,3 +53,45 @@ Types of functions return types :
       c=add(A,B);
       console.log(c);
 
+Types of parameters : 
+1. Positional argument : check the position of given argument and parameters
+   eg :
+    function simp(p,r,t){
+      console.log('principle is '+p);
+      console.log('rate is '+r);
+      console.log('time is '+t);
+      si = p * r * t / 100;
+      console.log('simple interest is '+s1);
+    }
+   p = 5000;
+   r = 10;
+   t = 5;
+   simp(p,r,t);
+
+2. default argument : if you haven't defined the values of t then we will provide default value in parameter
+  eg :
+    function simp(p,r,t=5){
+      console.log('principle is '+p);
+      console.log('rate is '+r);
+      console.log('time is '+t);
+      si = p * r * t / 100;
+      console.log('simple interest is '+s1);
+    }
+   p = 5000;
+   r = 10;
+   t = 5;
+   simp(p,r);
+
+3. keyword / named argument : it don't matter the position of the argument doesn't work in javascript
+eg :
+    function simp(r,p,t){
+      console.log('principle is '+p);
+      console.log('rate is '+r);
+      console.log('time is '+t);
+      si = p * r * t / 100;
+      console.log('simple interest is '+s1);
+    }
+   p = 5000;
+   r = 10;
+   t = 5;
+   simp(p=10000,r=17,t=7);

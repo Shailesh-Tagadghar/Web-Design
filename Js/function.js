@@ -13,8 +13,43 @@ add(a+b); ---argument
 
 Types of functions return types :
 1. function with no argument no return.
-2. function with no argument but return.
-3. function with argument no return.
-4. function with argument with return.
+  eg : 
+      function add(){
+        a=10;
+        b=10;
+        console.log(a+b);
+      }
+      add();
 
+2. function with no argument but return.
+  eg : 
+      function add(){
+        a=10;
+        b=10;
+        return a+b;
+      }
+      console.log(add());
+
+3. function with argument no return.
+  eg : 
+      function add(m,n){
+        a=10;
+        b=10;
+        console.log(a+b+A+B);
+      }
+      A=10;  == m
+      B=10;  == n
+      add(A,B);
+  
+4. function with argument with return.
+  eg : 
+      function add(m,n){
+        a=10;
+        b=10;
+        return a+b+A+B;
+      }
+      A=10;  == m
+      B=10;  == n
+      c=add(A,B);
+      console.log(c);
 

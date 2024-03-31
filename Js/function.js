@@ -12,7 +12,9 @@ b=20;
 add(a+b); ---argument
 
 Types of functions return types :
-1. function with no argument no parameter.
-2. 
-3. 
-4. 
+1. function with no argument no return.
+2. function with no argument but return.
+3. function with argument no return.
+4. function with argument with return.
+
+

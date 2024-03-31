@@ -11,3 +11,8 @@ a=10;
 b=20;
 add(a+b); ---argument
 
+Types of functions return types :
+1. function with no argument no parameter.
+2. 
+3. 
+4. 

@@ -80,3 +80,21 @@ else{
     document.write(`${p_num} Is Not Armstrong Number`)
 }
 
+// Perfect Number or Not
+
+num = parseInt(prompt('Enter the Number : '))
+
+sum = 0
+
+for (i = 1; i < num; i++) {
+    if (num % i == 0) {
+        sum = sum + i
+    }
+}
+
+if (sum == num) {
+    document.write(`${num} Is Perfect Number`)
+}
+else {
+    document.write(`${num} Is Not Perfect Number`)
+}

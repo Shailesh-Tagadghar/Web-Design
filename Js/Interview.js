@@ -63,3 +63,20 @@ else {
 
 OR
 
+num = parseInt(prompt('Enter the Number : '))
+p_num = num
+rev_num = 0
+
+while(num!=0){
+    rem = num % 10 // reminder
+    rev_num = rev_num + rem * rem * rem
+    num = Math.floor(num/10)
+}
+
+if(rev_num == p_num){
+    document.write(`${p_num} Is Armstrong Number`)
+}
+else{
+    document.write(`${p_num} Is Not Armstrong Number`)
+}
+

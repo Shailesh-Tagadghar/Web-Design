@@ -40,3 +40,26 @@ if(rev_num == p_num){
 else{
     document.write(p_num + ' Is Not Palindrome Number')
 }
+
+
+//Armstrong Number
+
+number = prompt('Enter the Number : ');
+sum = 0;
+temp = number;
+
+while (temp > 0) {
+    rem = temp % 10;
+    sum = sum + (rem * rem * rem);
+    temp = parseInt(temp / 10);
+}
+// check the condition
+if (sum == number) {
+    document.write(`${number} is an Armstrong number`);
+}
+else {
+    document.write(`${number} is not an Armstrong number.`);
+}
+
+OR
+

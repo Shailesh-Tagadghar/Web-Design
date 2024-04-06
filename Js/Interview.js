@@ -15,8 +15,8 @@ while(i<=n){
 }
 
 if(count == 2){
-    document.write(`Prime Number`)
+    document.write(n + ' is a Prime Number')
 }
 else{
-    document.write(`Not a Prime Number`)
+    document.write(n + ' is Not a Prime Number')
 }

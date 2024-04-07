@@ -115,6 +115,11 @@ setTimeout(function (){
     console.log('Hello Anonymous function');
 },3000)
 
+//immediately invoke
+
+(function (){
+    console.log('Hello immediately invoke function, this function is use Java');
+})()
 
 // Arrow function : 
 

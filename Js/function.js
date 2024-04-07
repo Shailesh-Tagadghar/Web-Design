@@ -114,3 +114,20 @@ show1()
 setTimeout(function (){
     console.log('Hello Anonymous function');
 },3000)
+
+
+// Arrow function : 
+
+let show = () => {
+    return 'Hello Arrow Function'
+}
+console.log(show());
+
+let add = (a,b) => {
+    return `${a} + ${b} is ${a+b}`
+}
+console.log(add(2,3));
+
+//we can write a arrow function without block (parenthesis - {}) but printing statement has to single statement multiple statement will not be accepted and return also not accepted
+let arrow = () => 'Hello Arrow Function 2'
+console.log(arrow());

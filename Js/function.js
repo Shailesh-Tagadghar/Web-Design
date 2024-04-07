@@ -95,7 +95,15 @@ eg :
    r = 10;
    t = 5;
    simp(p=10000,r=17,t=7);
-
+ ///////////////////// Anonymous Function ///////////////
+function show(){
+    console.log('Hello Shailesh');
+}
+show()
 
 // Anonymous Function : Function without name
 
+// example of Anonymous function : we are not saving this function in any memory location and 
+setTimeout(function (){
+    console.log('Hello Anonymous function');
+},3000)

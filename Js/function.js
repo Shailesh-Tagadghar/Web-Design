@@ -101,6 +101,13 @@ function show(){
 }
 show()
 
+//example of function expression
+let show1 = function(){
+    console.log('Hello function expression');
+}
+
+show1()
+
 // Anonymous Function : Function without name
 
 // example of Anonymous function : we are not saving this function in any memory location and 

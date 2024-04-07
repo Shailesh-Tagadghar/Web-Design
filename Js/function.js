@@ -95,3 +95,7 @@ eg :
    r = 10;
    t = 5;
    simp(p=10000,r=17,t=7);
+
+
+// Anonymous Function : Function without name
+

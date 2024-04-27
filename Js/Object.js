@@ -104,3 +104,34 @@ console.log(date.getMinutes());
 console.log(date.getMilliseconds());
 console.log(date.getSeconds());
 
+//Object inside Object
+
+let player = {
+    name : 'sachin',
+    runs : 18000,
+    players : {
+        name : 'virat',
+        runs : 16000
+    }
+}
+
+console.log(player.name);
+console.log(player.runs);
+console.log(player.players.name);
+console.log(player.players.runs);
+
+//Array and Array inside Object 
+
+let array = ['shailesh', 'tagadghar', 22]
+console.log(array);
+
+let array_obj = new Array('shailesh','tagadghar')
+console.log(array_obj);
+
+let array_in_obj = {
+    name : 'shailesh',
+    age : 22,
+    hobbies : ['watching movies', 'swimming']
+}
+console.log(array_in_obj);
+console.log(array_in_obj.hobbies);

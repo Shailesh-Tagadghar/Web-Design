@@ -89,3 +89,18 @@ console.log(x);
 var x = Math.min(5,6,7,8,9)
 console.log(x);
 
+//Date Method
+
+let date = new Date()
+console.log(date);
+
+console.log(date.toDateString());
+console.log(date.getFullYear());
+console.log(date.getMonth());
+console.log(date.getDate());
+console.log(date.getTime());
+console.log(date.getDay());
+console.log(date.getMinutes());
+console.log(date.getMilliseconds());
+console.log(date.getSeconds());
+

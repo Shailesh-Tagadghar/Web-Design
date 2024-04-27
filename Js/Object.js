@@ -24,3 +24,36 @@ for(let i in person_obj){
 for(let i in person_obj){
     console.log(i + " : " + person_obj[i]);
 }
+
+let person = {
+    first_name : 'sat',
+    age : '22',
+    display(){
+        console.log('Hello i am '+ person.first_name + ' and i have purchase a new ' + car.brand + ' car from a showroom');
+    }
+}
+
+let car = {
+    brand : 'Tata',
+    color : 'Red'
+}
+
+person.display();
+
+// Using This Keyword : (this)
+
+let person1 = {
+    first_name : 'ast',
+    age : '22',
+    display(){
+        console.log('Hello i am '+ this.first_name + ' and i have purchase a new ' + car.brand + ' car from a showroom');
+    }
+}
+
+let car1 = {
+    brand : 'Tata',
+    color : 'Red'
+}
+
+person1.display();
+

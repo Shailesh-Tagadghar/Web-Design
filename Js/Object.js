@@ -57,3 +57,35 @@ let car1 = {
 
 person1.display();
 
+//Math Object examples
+
+console.log('Math Object');
+
+//Round Off
+var x = Math.round(5.7)
+console.log(x);
+
+//Floor value
+var x = Math.floor(5.7)
+console.log(x);
+
+//ceiling value
+var x = Math.ceil(5.7)
+console.log(x);
+
+//Power raise to (2 raise to 5)
+var x = Math.pow(2,5)
+console.log(x);
+
+//Square root of 25 is 5
+var x = Math.sqrt(25)
+console.log(x);
+
+//Max value
+var x = Math.max(5,6,7,8,9)
+console.log(x);
+
+//Min value
+var x = Math.min(5,6,7,8,9)
+console.log(x);
+

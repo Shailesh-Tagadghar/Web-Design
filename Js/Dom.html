@@ -39,6 +39,15 @@
 
     <button id="btns" class="btn btn-dark">Click btn</button>
 
+     <img src="modi.jpg" id="img" alt="not found" width="auto" height="auto" />
+
+    <script>
+      let img = document.getElementById("img");
+      img.addEventListener("load", function () {
+        console.log("Image loaded successfully !");
+      });
+    </script>
+
     <script>
       // 1st way -- simple way
       function btnclick() {

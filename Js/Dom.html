@@ -16,6 +16,16 @@
         margin-top: 20%;
         margin-left: 50%;
       }
+
+      #box {
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-bottom: 100px;
+        width: 120px;
+        height: 120px;
+        cursor: pointer;
+        background-color: lightgreen;
+      }
     </style>
   </head>
   <body>
@@ -85,6 +95,35 @@
       btn.addEventListener("click", click2);
 
       btn.removeEventListener("click", click2);
+    </script>
+
+    <!-- <div id="box" onclick="dom()"></div> -->
+    <!-- <div id="box" oncontextmenu="dom()"></div> -->
+    <!-- work only when we right click on mouse -->
+    <!-- <div id="box" onmousedown="dom()"></div> -->
+    <div id="box" onmouseup="dom()"></div>
+    <!-- <div id="box" ondblclick="dom()"></div> -->
+
+    <script>
+      function dom() {
+        alert("Simple Event");
+      }
+
+      function dom() {
+        alert("Right Click Event");
+      }
+
+      function dom() {
+        alert("Mouse Up Event");
+      }
+
+      function dom() {
+        alert("Mouse Down Event");
+      }
+
+      function dom() {
+        alert("Double Click Event");
+      }
     </script>
   </body>
 </html>

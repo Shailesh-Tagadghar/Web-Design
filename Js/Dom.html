@@ -62,6 +62,20 @@
       btn.addEventListener("mouseout", function () {
         console.log("Button is MouseOut !");
       });
+
+      // 5th -- removing an event
+      function click1() {
+        console.log("Click One");
+      }
+
+      function click2() {
+        console.log("Click Two");
+      }
+
+      btn.addEventListener("click", click1);
+      btn.addEventListener("click", click2);
+
+      btn.removeEventListener("click", click2);
     </script>
   </body>
 </html>

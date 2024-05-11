@@ -37,10 +37,31 @@
       Click Me
     </button>
 
+    <button id="btns" class="btn btn-dark">Click btn</button>
+
     <script>
+      // 1st way -- simple way
       function btnclick() {
         alert("Button is created !");
       }
+
+      // 2nd way -- using event listner
+      let btn = document.getElementById("btns");
+      btn.addEventListener("click", btnclick);
+
+      // 3rd way -- using anonymous function
+      btn.addEventListener("click", function () {
+        console.log("Button is show in dark bg !");
+      });
+
+      // 4th -- adding multiple event at a time
+      btn.addEventListener("mouseover", function () {
+        console.log("Button is MouseOver !");
+      });
+
+      btn.addEventListener("mouseout", function () {
+        console.log("Button is MouseOut !");
+      });
     </script>
   </body>
 </html>
